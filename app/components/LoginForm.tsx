@@ -50,7 +50,7 @@ const LoginForm = () => {
             type='text'
             placeholder='Enter your username'
             className='p-4 text-sm bg-gray-100 rounded w-full text-gray-800'
-            onChange={(e) => setUsername(e.target.value)}
+            onChange={(e) => setUsername(e.target.value.toLowerCase())}
           />
         </div>
         <div>

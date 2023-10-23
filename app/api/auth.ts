@@ -10,11 +10,10 @@ const auth = (
 
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      // if (
-      //   userInfo.username === 'MAINT' &&
-      //   userInfo.password === 'safetyiskey'
-      // ) {
-      if (userInfo.username === 'admin' && userInfo.password === 'admin') {
+      if (
+        userInfo.username === 'maint' &&
+        userInfo.password === 'safetyiskey'
+      ) {
         resolve({
           message: 'Login successful',
           token: 'A7kPbRwY3FgTz2XqD5iVv6Nc9MhLjO0Iu4SbG1E8aJtUoWxZnY',
