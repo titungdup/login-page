@@ -35,9 +35,7 @@ const LoginForm = () => {
     <div className='w-full max-w-sm'>
       <div className='mb-8'>
         <h2 className='font-semibold text-2xl text-blue-600 mb-3'>Login</h2>
-        <p className='text-sm opacity-60'>
-          Enter your details to sing in to your account
-        </p>
+        <p className='text-sm'>Enter your details to sing in to your account</p>
       </div>
       <form className='space-y-4' onSubmit={(e) => handleLogin(e)}>
         <div>
@@ -71,7 +69,7 @@ const LoginForm = () => {
           />
         </div>
         <div>
-          <p className='text-xs -mt-2 text-right text-gray-500'>
+          <p className='text-xs -mt-2 text-right text-[#95bce2]'>
             <Link href={'/reset-password'}>Forgot the password?</Link>
           </p>
         </div>
@@ -107,7 +105,7 @@ const LoginForm = () => {
               )}
             </div>
           </button>
-          <p className='text-xs mt-6 text-gray-500 text-center'>
+          <p className='text-xs mt-6 text-[#95bce2] text-center'>
             Don&apos;t have account?{' '}
             <Link href={'/register'} className='font-medium'>
               Register
